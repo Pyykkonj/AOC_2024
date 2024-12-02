@@ -30,7 +30,7 @@ int h_read_line(std::ifstream &f, std::string &str)
 
     std::getline(f, str);
 
-   // printf("Line read: %s \n", str.c_str());
+    //printf("Line read: %s \n", str.c_str());
 
     return str.length();
 }
